@@ -1,0 +1,14 @@
+@media all and (max-width: 768px) {
+  .cv .gk-name {
+    font-size: 2em;
+  }
+
+  .a4-content {
+    flex-wrap: wrap;
+  }
+
+  .main-bio {
+    margin: 0;
+    border-left: none;
+  }
+}

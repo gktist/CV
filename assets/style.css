@@ -1,0 +1,161 @@
+.cv {
+  background-color: #1d1e22;
+  font-family: "Jura";
+}
+
+.cv a {
+  color: #224660;
+}
+
+.cv .content {
+  display: flex;
+  justify-content: center;
+}
+
+.cv .content .a4-page {
+  width: 21cm;
+  height: 29.7cm;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.cv .header {
+  position: relative;
+  min-height: 170px;
+}
+
+.cv .header svg {
+  width: calc(100% + 1px);
+  position: absolute;
+}
+
+.cv .header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  position: relative;
+  top: 0.5em;
+  flex-wrap: wrap;
+}
+
+.cv .gk-photo {
+  width: 170px;
+}
+
+.cv .gk-name {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Tektur";
+}
+
+.a4-content {
+  flex-grow: 1;
+  display: flex;
+  padding: 2em;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+}
+
+.cv .contact {
+  padding-top: 1em;
+}
+
+.cv .info .title,
+.cv .main-bio-title {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cv .info .title:not(.contact .title) {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin-top: 1em;
+  padding-top: 0.3em;
+}
+
+.cv .contact .item .icon,
+.cv .about .item .icon {
+  background-color: #2071ac;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv .info .item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.1em;
+}
+
+.cv .contact .item img,
+.cv .about .item img {
+  width: 25px;
+  filter: brightness(0) invert(1);
+  padding: 5px;
+}
+
+.cv .knowledge .item img {
+  width: 25px;
+}
+
+.cv .knowledge .bar {
+  height: 9px;
+  background-color: #90a2af;
+  border-radius: 10px;
+}
+
+.cv .knowledge .bar.html,
+.cv .knowledge .bar.css {
+  width: 100%;
+}
+
+.cv .knowledge .bar.php {
+  width: 75%;
+}
+
+.cv .knowledge .bar.laravel {
+  width: 40%;
+}
+
+.cv .knowledge .bar.javascript {
+  width: 60%;
+}
+
+.cv .knowledge .bar.git {
+  width: 60%;
+}
+
+.cv .knowledge .bar.nodejs {
+  width: 20%;
+}
+
+.cv .knowledge .bar.typescript {
+  width: 30%;
+}
+
+.cv .knowledge .bar.angular {
+  width: 25%;
+}
+
+.cv .knowledge .bar.english {
+  width: 65%;
+}
+
+.main-bio {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  margin-left: 1em;
+  padding: 1em;
+}
+
+.cv .footer svg {
+  transform: rotate(180deg);
+  margin-bottom: -5px;
+  width: calc(100% + 1px);
+  margin-top: -4em;
+}

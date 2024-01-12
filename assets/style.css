@@ -154,7 +154,7 @@
   padding: 1em;
 }
 
-.main-bio:first-of-type {
+.a4-page .first .main-bio {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: 1em;
 }

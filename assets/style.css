@@ -150,10 +150,13 @@
 }
 
 .main-bio {
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
   flex-grow: 1;
-  margin-left: 1em;
   padding: 1em;
+}
+
+.main-bio:first-of-type {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 1em;
 }
 
 .cv .footer svg {
